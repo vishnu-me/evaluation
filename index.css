@@ -1,0 +1,41 @@
+#show {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#show>div{
+
+    display: flex;
+}
+#show a {
+    text-decoration: none;
+    color: teal;
+    font-size: 30px;
+}
+input, select{
+    display: block;
+    margin: 15px 0px;
+    font-size: 20px;
+    padding: 1%;
+}
+form{
+    border: 1px solid rgb(230, 230, 230) ;
+    width: 400px;
+    margin: 3% auto;
+
+}
+
+#sub {
+    width: 70%;
+    margin: auto;
+    background-color: black;
+    color: wheat;
+    border-radius: 15px;
+
+}
